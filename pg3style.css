@@ -1,0 +1,100 @@
+@@font-face {
+  font-family: 'Merriweather', serif;
+  src: local('Merriweather') url(https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i);
+}
+
+@@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('Roboto') url(https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.bent-creek-logo {
+  float: left;
+  padding-top: 10px;
+}
+
+ul {display: flex;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  height: 90px;
+  justify-content: center;
+  justify-content: space-around;
+  font-size: 20px;
+  }
+
+
+nav {
+  margin-left: 300px;
+  margin-right: 300px;
+  }
+
+nav ul li {list-style-type: none;}
+
+
+body {
+  background-image: url('images/background-1.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1000px;
+  /*zoom: .2;*/
+  width: 100%;
+  z-index: 1;
+}
+.form {
+ text-align: center;
+ margin-top: 20%;
+ background-color: white;
+ font-family: 'Merriweather';
+ font-weight: lighter;
+ width: 60%;
+ height: 40%;
+ display: flex;
+ align-items: center;
+
+}
+
+h1 {
+  font-family: 'Merriweather';
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Merriweather';
+  font-size: 20px;
+  text-align: center;
+    font-weight: lighter;
+}
+
+
+.SIGN_button button {
+  display: flex;
+  justify-content: center;
+  /*position: relative;*/
+  background-color: white;
+  border: 1px solid;
+  width: 45%;
+  border-radius: 1%;
+}
+
+footer {
+  color: white;
+  padding-top: 2%;
+  background-color: #2a3026;
+  margin-top: 1%;
+  padding-bottom: 2%;
+  padding-left: 15px;
+  font-size: 20px;
+  font-family: 'Merriweather';
+  font-weight: lighter;
+  width: 100%;
+}
